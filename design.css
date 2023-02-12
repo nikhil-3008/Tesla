@@ -1,0 +1,443 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', Cambria;
+    
+    
+ }
+/* .img{
+    width:100%;
+    padding: top 300px;
+    background-size:cover;
+    
+} */
+ .header{
+        width: 100%;
+        height: 100vh;
+        /* background-image: url(model1.jpg); */
+        background-color: rgba(242, 239, 239, 0.5);
+        background-position: center;
+        background-blend-mode: multiply;
+        background-size: cover;
+        padding: 0 9%;
+        /* transition: background-image 1s; */
+        /* animation: change 20s infinite ease-in-out; */
+    }
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+.section{
+    background-size: cover;
+    width: 100%;
+    flex: 1;
+    background-color: rgba(243, 237, 237, 0.933);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+}
+
+
+     .header{
+        width: 100%;
+        height: 100vh;
+        /* background-image: url(model1.jpg); */
+        background-color: rgba(242, 239, 239, 0.5);
+        background-position: center;
+        background-blend-mode: multiply;
+        background-size: cover;
+        padding: 0 0%;
+        /* transition: background-image 1s; */
+        /* animation: change 20s infinite ease-in-out; */
+    } 
+    nav{
+    
+        position:absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    nav ul{
+        flex: 1;
+        text-align: center;
+    }
+    nav ul li{
+        display: inline-block;
+        margin: 10px 20px;
+    }
+    nav ul li a{
+    text-decoration: none;
+    color: rgb(249, 249, 250);
+    }
+    nav .btn1{
+        color: #fff;
+        text-decoration: none;
+        /* border:1px solid #fff; */
+        font-size: large;
+        padding: 8px 20px;
+        border-radius:10px;
+        margin-right: 12px;
+        margin-top: 10px;
+    
+    }
+    nav .btn2{
+        color: #fff;
+        text-decoration: none;
+        font-size: large;
+        /* border:1px solid #fff; */
+        padding: 8px 20px;
+        border-radius:8px;
+        margin-right: 10px;
+        margin-top: 10px;
+    
+    }
+nav .dropdown{
+        color: rgb(8, 7, 7);
+        text-decoration: none;
+        font-size:large;
+        /* border:1px solid #fff; */
+        padding: 8px 20px;
+        border-radius:10px;
+        margin-right: 6px;
+        margin-top: 5px;
+    }
+.header2{
+        width: 100%;
+        height: 100vh;
+        background-image: url(model1.jpg);
+        background-color: rgba(242, 239, 239, 0.5);
+        background-position: center;
+        background-blend-mode: multiply;
+        background-size: cover;
+        flex: 1;
+        padding: 0 0%;
+        animation: change infinite ease-in-out;
+        animation-duration: 30s;
+    
+    }
+ @keyframes change{
+        10%
+        {
+            background-image: url(model1.jpg);
+            
+        }
+        40%
+        {
+            background-image: url(rangeRover.webp);
+        }
+        70%
+        {
+            background-image: url(velar.webp);
+        }
+        90%
+        {
+            background-image: url(model2.jpg);
+        }
+    }
+.dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+ .dropdown-menu {
+        display: none;
+        position: absolute;
+        background-color: #6d6161;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-menu a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+    .dropdown-menu a:hover {background-color: rgb(86, 77, 77);}
+    
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+.subsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    width: 100%;
+    background: linear-gradient(#D5A3FF 0%, #77A5F8 100%);
+}
+.wrapper{
+    background: rgb(250, 240, 251);
+    border-radius: 20px;
+    width: 800px;
+    padding: 20px;
+    box-shadow: 10px 10px 15px rgba(11, 9, 11, 0.4);
+    height: 350px;
+    
+}
+
+h2{
+    text-align: center;
+}
+hr{
+    width: 100px;
+    margin: 10px auto;
+}
+.members{
+    display: flex;
+}
+.team-mem{
+    margin: 8px;
+    
+}
+img{
+    width: 150px;
+    height: 170px;
+    border-radius: 50%;
+    margin: 10px;
+}
+h4,p{
+    text-align: center;
+    font-size: 15px;
+    margin: 7px;
+}
+.slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+    font-size: 40px;
+    /* margin-top: 20px; */
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 50px;
+    border-radius: 0 3px 3px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+      text-align: center;
+      padding: 20px;
+      background: #ddd;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+  
+  /* Add a blue color to the author */
+  .author {color: cornflowerblue;}
+  .section.two{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Raleway;
+    background-color: #333747;
+
+  }
+  .heading3 {
+    text-align: center;
+    font-size: 2.0em;
+    letter-spacing: 1px;
+    padding: 40px;
+    color: white;
+}
+
+.gallery-image {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-image-img {
+  height: 250px;
+  width: 350px;
+  transform: scale(1.0);
+  transition: transform 0.4s ease;
+}
+
+.img-box {
+  box-sizing: content-box;
+  margin: 10px;
+  height: 250px;
+  width: 350px;
+  /* background-image:url("https://picsum.photos/350/250/?image=232"); */
+  overflow: hidden;
+  display: inline-block;
+  color: white;
+  position: relative;
+  background-color: white;
+}
+.img1{
+      background-image:url("discovery.webp");
+      height: 300px;
+      width: 350px;
+      background-size: 110%;
+}
+.img2{
+    background-image:url("safety.jpg");
+    height: 300px;
+    width: 350px;
+    background-size: cover;
+}
+.img3{
+    background-image:url("Cybertruck.jpg");
+    height: 300px;
+    width: 350px;
+    background-size: cover;
+}
+.img4{
+    background-image:url("connected.jpg");
+    height: 300px;
+    width: 350px;
+    background-size: contain;
+}
+.img5{
+    background-image:url("eletric_landrover.webp");
+    height: 300px;
+    width: 350px;
+    background-size: contain;
+}
+.img6{
+    background-image:url("rangeRover.webp");
+    height: 300px;
+    width: 350px;
+    
+    background-size: cover;
+}
+
+.caption {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+  opacity: 0.0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.transparent-box {
+  height: 250px;
+  width: 350px;
+  background-color:rgba(221, 212, 212, 0.064);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: background-color 0.3s ease;
+}
+
+.img-box:hover img { 
+  transform: scale(1.1);
+}
+
+.img-box:hover .transparent-box {
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.img-box:hover .caption {
+  transform: translateY(-20px);
+  opacity: 1.0;
+}
+
+.img-box:hover {
+  cursor: pointer;
+}
+
+.caption > p:nth-child(2) {
+  font-size: 0.8em;
+}
+
+.opacity-low {
+  opacity: 0.5;
+}
+.menu {
+  float: left;
+  width: 20%;
+  /* font-size: 30px; */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+  size: 50px;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+.fab.fa-facebook-f{
+  color: #fff;
+}
+.fab.fa-twitter{
+  color: #fff;
+}
+.fab.fa-instagram{
+  color: #fff;
+}
+.fab.fa-youtube{
+  color: #fff;
+}
+.fab.fa-linkedin-in{
+  color: #fff;
+}
